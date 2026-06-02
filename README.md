@@ -1,1 +1,333 @@
-file:///C:/Users/c10gi/Downloads/%E9%87%91%E5%89%9B%E5%B1%B1%E6%AD%8C%E5%8A%87%E5%9B%A3%E5%B2%90%E9%98%9C%E5%85%AC%E6%BC%94_%E5%AE%A3%E4%BC%9D%E3%82%B5%E3%82%A4%E3%83%88_%E3%82%B7%E3%83%B3%E3%83%97%E3%83%AB%E9%9B%86%E5%AE%A2%E7%89%88%20(1)/kongosan_gifu_simple_site/index.html
+[index.html](https://github.com/user-attachments/files/28493417/index.html)
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>金剛山歌劇団 岐阜公演 2026</title>
+  <meta name="description" content="金剛山歌劇団岐阜公演。2026年9月20日（日）14時開演。長良川国際会議場メインホール＜さらさ～ら＞にて開催。">
+  <meta property="og:title" content="金剛山歌劇団 岐阜公演 2026">
+  <meta property="og:description" content="2026年9月20日（日）14時開演。長良川国際会議場メインホール＜さらさ～ら＞にて開催。">
+  <meta property="og:type" content="website">
+  <meta name="theme-color" content="#8b1231">
+  <style>
+    :root{
+      --wine:#8b1231;
+      --deep:#230711;
+      --gold:#d9ad4f;
+      --cream:#fff7ea;
+      --paper:#fffdf8;
+      --ink:#261a1d;
+      --muted:#6a5960;
+      --line:#ead8bb;
+      --shadow:0 18px 48px rgba(35,7,17,.18);
+      --radius:22px;
+    }
+    *{box-sizing:border-box}
+    body{
+      margin:0;
+      font-family:-apple-system,BlinkMacSystemFont,"Hiragino Kaku Gothic ProN","Yu Gothic",Meiryo,sans-serif;
+      color:var(--ink);
+      background:linear-gradient(180deg,#fff7ea 0%,#fffdf8 46%,#fff7ea 100%);
+      line-height:1.75;
+    }
+    a{color:inherit}
+    .wrap{width:min(1080px,92vw);margin:auto}
+    header{
+      position:sticky;top:0;z-index:20;
+      background:rgba(255,253,248,.9);
+      backdrop-filter:blur(12px);
+      border-bottom:1px solid rgba(234,216,187,.75);
+    }
+    .nav{display:flex;align-items:center;justify-content:space-between;padding:12px 0}
+    .brand{font-weight:900;color:var(--wine);letter-spacing:.04em}
+    .navlinks{display:flex;gap:20px;font-size:14px;color:#563640}
+    .navlinks a{text-decoration:none}
+    .btn{
+      display:inline-flex;align-items:center;justify-content:center;
+      padding:12px 20px;border-radius:999px;text-decoration:none;font-weight:900;
+      background:var(--wine);color:#fff;box-shadow:0 12px 26px rgba(139,18,49,.24);
+      border:1px solid rgba(255,255,255,.24);
+    }
+    .btn.secondary{background:#fff;color:var(--wine);border:1px solid var(--wine);box-shadow:none}
+    .hero{
+      padding:72px 0 56px;
+      background:
+        radial-gradient(circle at 88% 8%,rgba(217,173,79,.38),transparent 28%),
+        radial-gradient(circle at 12% 20%,rgba(139,18,49,.14),transparent 32%);
+    }
+    .hero-grid{display:grid;grid-template-columns:1.15fr .85fr;gap:40px;align-items:center}
+    .eyebrow{
+      display:inline-flex;padding:6px 14px;border-radius:999px;
+      border:1px solid var(--line);background:rgba(255,255,255,.75);
+      color:var(--wine);font-weight:900;letter-spacing:.12em;font-size:14px;
+    }
+    h1{
+      font-size:clamp(38px,7vw,76px);
+      line-height:1.08;margin:22px 0 16px;letter-spacing:.03em;color:var(--deep);
+    }
+    .lead{font-size:clamp(17px,2.2vw,21px);color:#513640;margin:0 0 28px}
+    .actions{display:flex;gap:14px;flex-wrap:wrap}
+    .poster{
+      min-height:430px;border-radius:32px;padding:28px;color:#fff;
+      background:linear-gradient(145deg,var(--wine),#390817);
+      box-shadow:var(--shadow);position:relative;overflow:hidden;
+      display:flex;flex-direction:column;justify-content:space-between;
+    }
+    .poster:before{
+      content:"";position:absolute;right:-80px;top:-80px;width:260px;height:260px;
+      background:radial-gradient(circle,rgba(217,173,79,.68),transparent 65%);
+    }
+    .poster .small{color:#ffe5aa;font-weight:900;letter-spacing:.12em;font-size:14px}
+    .poster-title{font-size:36px;font-weight:900;line-height:1.18;margin:18px 0}
+    .datebox{
+      border:1px solid rgba(255,255,255,.26);background:rgba(255,255,255,.11);
+      border-radius:22px;padding:18px;
+    }
+    .datebox strong{display:block;font-size:30px;color:#ffe3a1;line-height:1.25}
+    section{padding:62px 0}
+    .section-title{
+      display:flex;align-items:center;gap:13px;
+      font-size:31px;line-height:1.25;color:var(--deep);margin:0 0 22px;
+    }
+    .section-title:before{
+      content:"";display:inline-block;width:10px;height:34px;border-radius:20px;background:var(--gold);
+    }
+    .cards{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
+    .card{
+      background:rgba(255,255,255,.85);border:1px solid var(--line);
+      border-radius:var(--radius);padding:24px;box-shadow:0 12px 32px rgba(35,7,17,.08);
+    }
+    .card h3{margin:0 0 8px;color:var(--wine);font-size:20px}
+    .big{font-size:28px;font-weight:900;color:var(--deep);line-height:1.25}
+    .muted{color:var(--muted)}
+    .info-grid{display:grid;grid-template-columns:.85fr 1.15fr;gap:24px}
+    table{width:100%;border-collapse:collapse;background:white;border-radius:18px;overflow:hidden}
+    th,td{padding:14px 16px;border-bottom:1px solid var(--line);text-align:left;vertical-align:top}
+    th{width:34%;background:#fff3dc;color:#56323d}
+    tr:last-child th,tr:last-child td{border-bottom:0}
+    .price{display:grid;grid-template-columns:repeat(2,1fr);gap:16px}
+    .price .card{text-align:center}
+    .price-number{font-size:36px;font-weight:900;color:var(--wine)}
+    .support{
+      background:linear-gradient(135deg,#fff,#fff3dc);
+      border-top:1px solid var(--line);border-bottom:1px solid var(--line);
+    }
+    .ad-table td:nth-child(2),.ad-table td:nth-child(3){white-space:nowrap}
+    .notice{
+      background:#fff;border-left:5px solid var(--gold);
+      padding:18px 20px;border-radius:14px;color:#4b3840;
+    }
+    .access{display:grid;grid-template-columns:1fr 1fr;gap:24px;align-items:stretch}
+    .map{
+      min-height:300px;border-radius:var(--radius);border:1px solid var(--line);
+      background:
+        linear-gradient(135deg,rgba(139,18,49,.08),rgba(217,173,79,.16)),
+        repeating-linear-gradient(45deg,rgba(35,7,17,.06) 0 1px,transparent 1px 14px);
+      display:flex;align-items:center;justify-content:center;text-align:center;padding:24px;
+    }
+    footer{background:var(--deep);color:#fff;padding:40px 0}
+    footer .muted{color:#d7c0c7}
+    @media(max-width:860px){
+      .hero-grid,.info-grid,.access{grid-template-columns:1fr}
+      .cards,.price{grid-template-columns:1fr}
+      .navlinks{display:none}
+      .poster{min-height:340px}
+      th,td{display:block;width:100%}
+      th{border-bottom:0}
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="wrap nav">
+      <div class="brand">金剛山歌劇団 岐阜公演</div>
+      <nav class="navlinks" aria-label="ページ内リンク">
+        <a href="#about">公演案内</a>
+        <a href="#ticket">チケット</a>
+        <a href="#support">広告募集</a>
+        <a href="#access">アクセス</a>
+        <a href="#contact">お問い合わせ</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="wrap hero-grid">
+        <div>
+          <div class="eyebrow">2026 GIFU PERFORMANCE</div>
+          <h1>金剛山歌劇団<br>岐阜公演</h1>
+          <p class="lead">
+            歌・舞踊・音楽が織りなす、華やかな舞台芸術。
+            ご家族、ご友人をお誘い合わせのうえ、ぜひご来場ください。
+          </p>
+          <div class="actions">
+            <a class="btn" href="#ticket">チケット情報</a>
+            <a class="btn secondary" href="#support">広告協賛について</a>
+          </div>
+        </div>
+
+        <aside class="poster" aria-label="開催情報">
+          <div>
+            <div class="small">KONGOSAN OPERA TROUPE</div>
+            <div class="poster-title">心に残る<br>特別な舞台を<br>岐阜で。</div>
+          </div>
+          <div class="datebox">
+            <div>開催日</div>
+            <strong>2026年9月20日（日）</strong>
+            <div style="margin-top:10px">開場 13:30 ／ 開演 14:00</div>
+            <div style="margin-top:10px">長良川国際会議場 メインホール<br>＜さらさ～ら＞</div>
+          </div>
+        </aside>
+      </div>
+    </section>
+
+    <section id="about">
+      <div class="wrap">
+        <h2 class="section-title">公演案内</h2>
+        <div class="info-grid">
+          <div class="card">
+            <h3>金剛山歌劇団 岐阜公演</h3>
+            <p>
+              金剛山歌劇団による岐阜公演を開催いたします。
+              民族芸術の魅力あふれる舞台を、ぜひ会場でお楽しみください。
+            </p>
+            <p>
+              はじめてご覧になる方にも楽しんでいただける内容です。
+              皆さまのご来場を心よりお待ちしております。
+            </p>
+          </div>
+          <table aria-label="公演概要">
+            <tr><th>公演名</th><td>金剛山歌劇団 岐阜公演</td></tr>
+            <tr><th>日時</th><td>2026年9月20日（日） 開場13:30 ／ 開演14:00</td></tr>
+            <tr><th>会場</th><td>長良川国際会議場 メインホール＜さらさ～ら＞</td></tr>
+            <tr><th>住所</th><td>岐阜市長良福光2695-2</td></tr>
+            <tr><th>主催</th><td>金剛山歌劇団岐阜公演実行委員会</td></tr>
+          </table>
+        </div>
+
+        <div class="cards" style="margin-top:18px">
+          <div class="card">
+            <h3>開催日</h3>
+            <div class="big">9月20日（日）</div>
+            <p class="muted">2026年開催</p>
+          </div>
+          <div class="card">
+            <h3>時間</h3>
+            <div class="big">14:00 開演</div>
+            <p class="muted">13:30開場予定</p>
+          </div>
+          <div class="card">
+            <h3>会場</h3>
+            <div class="big">長良川国際会議場</div>
+            <p class="muted">メインホール＜さらさ～ら＞</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="ticket" style="background:#fffaf1;border-top:1px solid var(--line);border-bottom:1px solid var(--line)">
+      <div class="wrap">
+        <h2 class="section-title">チケット</h2>
+        <div class="price">
+          <div class="card">
+            <h3>指定席</h3>
+            <div class="price-number">4,000円</div>
+            <p class="muted">座席指定でゆっくりご鑑賞いただけます。</p>
+          </div>
+          <div class="card">
+            <h3>自由席</h3>
+            <div class="price-number">2,000円</div>
+            <p class="muted">気軽にご参加いただける自由席です。</p>
+          </div>
+        </div>
+        <p class="notice" style="margin-top:20px">
+          チケットのお申し込み・お問い合わせは、下記の事務局までご連絡ください。
+        </p>
+      </div>
+    </section>
+
+    <section id="support" class="support">
+      <div class="wrap">
+        <h2 class="section-title">広告協賛募集</h2>
+        <p>
+          本公演の開催にあたり、広告協賛を募集しております。
+          企業・団体・個人の皆さまの温かいご協力をお願い申し上げます。
+        </p>
+        <table class="ad-table" aria-label="広告協賛料金表">
+          <tr><th>掲載面</th><th>金額</th><th>チケット配布目安</th></tr>
+          <tr><td>A4 1面</td><td>100,000円以上</td><td>協賛招待 5枚</td></tr>
+          <tr><td>A4 1/2面</td><td>50,000円</td><td>協賛招待 2枚</td></tr>
+          <tr><td>A4 1/3面</td><td>30,000円</td><td>協賛招待 1枚</td></tr>
+          <tr><td>A4 1/5面</td><td>20,000円</td><td>自由席 2枚</td></tr>
+          <tr><td>A4 1/10面</td><td>10,000円</td><td>自由席 1枚</td></tr>
+        </table>
+
+        <div class="cards" style="margin-top:18px">
+          <div class="card">
+            <h3>募集期間</h3>
+            <p class="big">6月中旬〜8月下旬</p>
+            <p class="muted">正式な締切日は決定次第ご案内します。</p>
+          </div>
+          <div class="card">
+            <h3>原稿提出</h3>
+            <p class="big">8月下旬予定</p>
+            <p class="muted">印刷の都合上、期限内の提出にご協力ください。</p>
+          </div>
+          <div class="card">
+            <h3>お申し込み</h3>
+            <p>広告協賛のお申し込みは、事務局までお問い合わせください。</p>
+            <a class="btn secondary" href="#contact">問い合わせ先を見る</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="access">
+      <div class="wrap">
+        <h2 class="section-title">アクセス</h2>
+        <div class="access">
+          <div class="card">
+            <h3>長良川国際会議場 メインホール＜さらさ～ら＞</h3>
+            <p>〒502-0817<br>岐阜市長良福光2695-2</p>
+            <p>TEL：058-296-1200</p>
+            <a class="btn secondary" href="https://www.google.com/maps/search/?api=1&query=%E9%95%B7%E8%89%AF%E5%B7%9D%E5%9B%BD%E9%9A%9B%E4%BC%9A%E8%AD%B0%E5%A0%B4" target="_blank" rel="noopener">Googleマップで見る</a>
+          </div>
+          <div class="map">
+            <div>
+              <strong>MAP</strong><br>
+              会場写真や地図画像を入れる場合は、ここに配置できます。
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" style="background:#fffaf1;border-top:1px solid var(--line)">
+      <div class="wrap">
+        <h2 class="section-title">お問い合わせ</h2>
+        <div class="card">
+          <h3>金剛山歌劇団岐阜公演 事務局</h3>
+          <p>岐阜市加納新本町3丁目7番地</p>
+          <p>
+            TEL：058-276-2785<br>
+            FAX：058-276-2787<br>
+            E-mail：<a href="mailto:kot.gifukouen@gmail.com">kot.gifukouen@gmail.com</a>
+          </p>
+          <div class="actions">
+            <a class="btn" href="mailto:kot.gifukouen@gmail.com?subject=%E9%87%91%E5%89%9B%E5%B1%B1%E6%AD%8C%E5%8A%87%E5%9B%A3%E5%B2%90%E9%98%9C%E5%85%AC%E6%BC%94%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6">メールで問い合わせる</a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="wrap">
+      <strong>金剛山歌劇団岐阜公演実行委員会</strong>
+      <p class="muted">掲載内容は変更となる場合があります。最新情報は事務局までお問い合わせください。</p>
+    </div>
+  </footer>
+</body>
+</html>
