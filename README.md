@@ -1,2 +1,1 @@
-# -
-金剛山歌劇団岐阜公演
+file:///C:/Users/c10gi/Downloads/%E9%87%91%E5%89%9B%E5%B1%B1%E6%AD%8C%E5%8A%87%E5%9B%A3%E5%B2%90%E9%98%9C%E5%85%AC%E6%BC%94_%E5%AE%A3%E4%BC%9D%E3%82%B5%E3%82%A4%E3%83%88_%E3%82%B7%E3%83%B3%E3%83%97%E3%83%AB%E9%9B%86%E5%AE%A2%E7%89%88%20(1)/kongosan_gifu_simple_site/index.html
